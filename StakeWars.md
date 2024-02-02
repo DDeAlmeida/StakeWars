@@ -50,6 +50,36 @@ apt-get install libudev-dev
 cargo install near-cli-rs
 ```
 
+First, you need to add the new network:
+```
+near config add-connection --network-name statelessnet --connection-name statelessnet --rpc-url https://rpc.statelessnet.near.org/ --wallet-url https://rpc.statelessnet.near.org/ --explorer-transaction-url https://rpc.statelessnet.near.org/
+```
+Configuration:
+![image](https://github.com/DDeAlmeida/StakeWars/assets/52310650/8c9f2154-f958-4ba8-8807-0057698d77bb)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 For this form: https://docs.google.com/forms/d/e/1FAIpQLSeWWp5xjn06-ViDUyOwpxnD6dXd5fEVVXaZEOZYup3xvAV8kQ/viewform
 
