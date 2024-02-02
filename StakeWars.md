@@ -56,14 +56,15 @@ Unless you are logged in as root, which is not recommended you will need to use 
 ```
 sudo npm install -g near-cli
 ```
-* Launch this command so set the Near StateLess Environment:
+
+
+For this form: https://docs.google.com/forms/d/e/1FAIpQLSeWWp5xjn06-ViDUyOwpxnD6dXd5fEVVXaZEOZYup3xvAV8kQ/viewform
+
 ```
-export NEAR_ENV=statelessnet
+near generate-key
 ```
-* You can also run this command to set the Near testnet Environment persistent:
-```
-echo 'export NEAR_ENV=statelessnet' >> ~/.bashrc
-```
+
+Fill information with data in /root/.near-credentials/testnet/
 
 
 
