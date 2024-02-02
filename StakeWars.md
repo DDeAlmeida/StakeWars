@@ -32,11 +32,6 @@ source $HOME/.cargo/env
 git clone https://github.com/near/nearcore.git
 
 ```
-* Set environment to the latest release tag. For the latest release tag, please check here: https://github.com/near/nearcore/releases.  Note: RC tags are for Testnet only.
-```
-export NEAR_RELEASE_VERSION=1.36.5
-```
-```
 cd nearcore
 git fetch origin statelessnet_latest
 git checkout statelessnet_latest
