@@ -58,11 +58,11 @@ sudo npm install -g near-cli
 ```
 * Launch this command so set the Near Mainnet Environment:
 ```
-export NEAR_ENV=mainnet
+export NEAR_ENV=statelessnet
 ```
 * You can also run this command to set the Near testnet Environment persistent:
 ```
-echo 'export NEAR_ENV=mainnet' >> ~/.bashrc
+echo 'export NEAR_ENV=statelessnet' >> ~/.bashrc
 ```
 
 
