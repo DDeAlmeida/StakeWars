@@ -30,6 +30,7 @@ source $HOME/.cargo/env
 * Clone the NEARCore Repo
 ```
 git clone https://github.com/near/nearcore.git
+```
 
 ```
 cd nearcore
