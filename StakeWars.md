@@ -56,7 +56,7 @@ Unless you are logged in as root, which is not recommended you will need to use 
 ```
 sudo npm install -g near-cli
 ```
-* Launch this command so set the Near Mainnet Environment:
+* Launch this command so set the Near StateLess Environment:
 ```
 export NEAR_ENV=statelessnet
 ```
