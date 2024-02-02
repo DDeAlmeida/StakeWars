@@ -38,18 +38,15 @@ git fetch origin statelessnet_latest
 git checkout statelessnet_latest
 cargo build -p neard --release --features statelessnet_protocol
 ```
-* Install Nodejs and NPM
-```
-curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-sudo apt install build-essential nodejs
-PATH="$PATH"
-```
-* Install Near CLI
+
+* Install Near CLI-RS
 
 Once NodeJs and NPM are installed you can now install NEAR-Cli RS.
 
 Unless you are logged in as root, which is not recommended you will need to use `sudo` to install NEAR-Cli so that the near binary to /usr/local/bin
 ```
+apt install pkg-config
+apt-get install libudev-dev
 cargo install near-cli-rs
 ```
 
