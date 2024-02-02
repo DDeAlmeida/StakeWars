@@ -59,35 +59,35 @@ Configuration:
 
 
 
+There's a tool for creating the account.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-For this form: https://docs.google.com/forms/d/e/1FAIpQLSeWWp5xjn06-ViDUyOwpxnD6dXd5fEVVXaZEOZYup3xvAV8kQ/viewform
-
+In order to use it, you need a set of keys. This command will help you to obtain the needed data:
 ```
-near generate-key
+near account create-account fund-later use-auto-generation save-to-folder ./<your-account-name>.statelessnet
 ```
 
-Fill information with data in /root/.near-credentials/testnet/
+Now open the file and copy the Public in https://sw4-account-creator-g55a3i3lmq-ey.a.run.app/
+
+You'll have 10 tokens available automatically for all your experiments.
+
+StatelessNet is a sandbox created for testing purposes, concentrating both on correctness and performance. StatelessNet will be initiated with a copy of mainnet state. In the future the protocol team may enable mirroring mainnet traffic in StatelessNet. It means that all the existing mainnet accounts would be already occupied. It will not affect the activity on mainnet in any case.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
