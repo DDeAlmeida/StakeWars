@@ -110,7 +110,7 @@ near login
 #### Step 4 – Initialize & Start the Node
 * From nearcore folder initialize NEAR:
 ```
-target/release/neard init --chain-id="mainnet" --account-id=<full_pool_id>
+target/release/neard init --chain-id="statelessnet" --account-id=<full_pool_id>
 ```
 **Note that if you want to download blocks faster just stop command after initialization and go further by guide.
 
@@ -119,10 +119,10 @@ target/release/neard init --chain-id="mainnet" --account-id=<full_pool_id>
 cd ~/.near
 rm genesis.json (if exists)
 rm config.json (if exists)
-wget -c https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/mainnet/genesis.json
-wget -c https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/mainnet/config.json
+wget -c https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/statelessnet/genesis.json
+wget -c https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/statelessnet/config.json
 ```
-* Download the latest snapshot from [the snapshot page](https://near-nodes.io/intro/node-data-snapshots).
+* Download the latest snapshot from [the snapshot page](https://near-nodes.io/intro/de-data-snapshots).
 ##### Create `validator_key.json`
 * Generate the Key file:
 ```
