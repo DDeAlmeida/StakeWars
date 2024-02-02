@@ -1,11 +1,5 @@
 # NEAR Validator Guide🚀
 
-# Definitions
-
-* <pool_id> or pool_id - your pool name, for example nearuaguild
-* <full_pool_id> or full_pool_id - xxx.poolv1.near, where xxx is your pool_id
-* <accountId\> or accountId  - xxx.near where xxx your account name, for example nearukraineguild.near
-
 # Setup using NEARCore
 
 #### Step 1 – Installation required software & set the configuration
@@ -70,6 +64,21 @@ export NEAR_ENV=mainnet
 ```
 echo 'export NEAR_ENV=mainnet' >> ~/.bashrc
 ```
+
+
+
+
+--------------------------------------------WAIT ------------------------------------------------
+
+
+
+
+
+
+
+
+
+
 #### Step 2 – Create a wallet
 MainNet: https://wallet.near.org/
 
