@@ -46,11 +46,11 @@ PATH="$PATH"
 ```
 * Install Near CLI
 
-Once NodeJs and NPM are installed you can now install NEAR-Cli.
+Once NodeJs and NPM are installed you can now install NEAR-Cli RS.
 
 Unless you are logged in as root, which is not recommended you will need to use `sudo` to install NEAR-Cli so that the near binary to /usr/local/bin
 ```
-sudo npm install -g near-cli
+cargo install near-cli-rs
 ```
 
 
